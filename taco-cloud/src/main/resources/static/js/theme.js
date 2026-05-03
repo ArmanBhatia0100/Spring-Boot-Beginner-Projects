@@ -14,5 +14,4 @@ function loadTheme() {
     const savedTheme = localStorage.getItem("theme") || "light";
     document.body.classList.add(savedTheme + "-mode");
 }
-
 document.addEventListener("DOMContentLoaded", loadTheme);
