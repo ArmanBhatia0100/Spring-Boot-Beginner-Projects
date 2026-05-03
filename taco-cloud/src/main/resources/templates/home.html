@@ -1,11 +1,28 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
 
 <head>
-	<title>Taco Cloud</title>
+    <title>Taco Cloud</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" th:href="@{/css/theme.css}">
 </head>
 
 <body>
-	<h1>Welcome to...</h1> <img th:src="@{/images/Taco.jpg}" />
-</body>
 
+<h1>Welcome to Taco Cloud</h1>
+
+<!-- Toggle Button -->
+<button class="theme-toggle-btn" onclick="toggleTheme()">
+    Toggle Theme
+</button>
+
+<br>
+<br>
+<img th:src="@{/images/Taco.jpg}" />
+
+<!-- JS -->
+<script th:src="@{/js/theme.js}"></script>
+
+</body>
 </html>
