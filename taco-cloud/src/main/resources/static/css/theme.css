@@ -1,0 +1,23 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Button styling */
+.theme-toggle-btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
