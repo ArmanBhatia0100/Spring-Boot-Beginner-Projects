@@ -14,8 +14,8 @@ This repo is home to a variety of Spring Boot projects, each living in its own f
 
 1. **Clone the Repo**:
    ```bash
-   git clone this repo
-   cd spring-boot-collection
+   git clone https://github.com/ArmanBhatia0100/Spring-Boot-Beginner-Projects.git
+   cd Spring-Boot-Beginner-Projects
    ```
 
 2. **Pick a Project**:
@@ -29,7 +29,7 @@ This repo is home to a variety of Spring Boot projects, each living in its own f
      ```bash
      mvn spring-boot:run
      ```
-   - Open `localhost:8080` in your browser (if it’s a web app).
+   - Open http://localhost:8080 in your browser (if it’s a web app).
 
 4. **Explore & Tinker**:
    - Dig into the code, tweak it, break it, fix it—make it yours!
